@@ -48,7 +48,6 @@ export default {
 .index-container {
   .warpper {
     padding: 12px;
-    background: #fff;
     .demo-home__title {
       margin: 0 0 6px;
       font-size: 32px;
@@ -67,9 +66,13 @@ export default {
     }
     .demo-home__desc {
       margin: 0 0 20px;
-      color: rgba(69, 90, 100, 0.6);
+      color: rgba(248, 248, 248, 0.6);
       font-size: 14px;
     }
+  }
+  .van-cell {
+    background-color: $bc;
+    color: #FFF;
   }
 }
 </style>

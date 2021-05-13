@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1620816522001') format('truetype');
+  src: url('iconfont.ttf?t=1620876499344') format('truetype');
 }
 
 .icon {
@@ -9,6 +9,14 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-03:before {
+  content: "\e64b";
+}
+
+.icon-wode:before {
+  content: "\e621";
 }
 
 .icon-canyin:before {
@@ -33,5 +41,9 @@
 
 .icon-wuxianwangluo:before {
   content: "\e66c";
+}
+
+.icon-zhibiao:before {
+  content: "\e66a";
 }
 

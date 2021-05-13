@@ -20,11 +20,18 @@ export default {
     return {
       tabbars: [
         {
-          title: '首页',
+          title: '关键指标',
           to: {
             name: 'Home'
           },
-          icon: 'home-o'
+          icon: 'wap-home-o'
+        },
+        {
+          title: '专题分析',
+          to: {
+            name: 'Analysis'
+          },
+          icon: 'chart-trending-o'
         },
         {
           title: '关于我',

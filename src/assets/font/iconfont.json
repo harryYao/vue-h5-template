@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "495784",
+      "name": "数据分析",
+      "font_class": "03",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "633017",
+      "name": "我",
+      "font_class": "wode",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
       "icon_id": "657463",
       "name": "餐饮",
       "font_class": "canyin",
@@ -46,6 +60,13 @@
       "font_class": "wuxianwangluo",
       "unicode": "e66c",
       "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "12331689",
+      "name": "指标",
+      "font_class": "zhibiao",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
     }
   ]
 }
