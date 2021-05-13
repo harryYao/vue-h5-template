@@ -4,8 +4,16 @@
   </div>
 </template>
 <script>
+import { removeWatermark, setWaterMark } from '@/utils/watermark'
+
 export default {
-  name: 'App'
+  name: 'App',
+  mounted() {
+    setWaterMark('张三', '123456789')
+  },
+  destroyed() {
+    removeWatermark()
+  }
 }
 </script>
 <style lang="scss"></style>

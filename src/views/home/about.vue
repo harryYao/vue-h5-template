@@ -16,7 +16,6 @@ export default {
   computed: {
   },
   mounted() {
-    this.initData()
   },
   methods: {
   }
